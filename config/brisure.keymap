@@ -93,23 +93,22 @@
 &kp Q      &kp W     &kp E  &kp R      &kp T  &kp Y   &kp U      &kp I  &kp O      &kp P
 &kp A      &kp S     &kp D  &kp F      &kp G  &kp H   &kp J      &kp K  &kp L      &kp SEMI            
 &kp Z      &kp X     &kp C  &kp V      &kp B  &tog 1  &kp N      &kp M  &kp COMMA  &kp DOT   &kp FSLH
-&kp LCTRL  &mo 2         &kp BSPC         &kp LEFT_SHIFT   &kp SPACE         &mo 3      &mo 4 &kp C_MUTE
+&kp LCTRL  &kp LGUI         &lt 2 BSPC         &lt 3 LEFT_SHIFT   &kp SPACE         &trans      &mo 4 &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
-
         game {
             display-name = "game";
             bindings = <
 &kp Q      &kp W     &kp E  &kp R      &kp T  &kp Y   &kp U      &kp I  &kp O      &kp P
 &kp A      &kp S     &kp D  &kp F      &kp G  &kp H   &kp J      &kp K  &kp L      &kp SEMI         
 &kp Z      &kp X     &kp C  &kp V      &kp B  &tog 1  &kp N      &kp M  &kp COMMA  &kp DOT   &kp FSLH
-&kp LCTRL  &kp LGUI         &kp SPACE         &mo 2   &kp ENTER         &mo 3      &mo 4 &kp C_MUTE
+&kp LCTRL  &kp LGUI         &lt 2 SPACE         &mo 2   &kp ENTER         &mo 3      &mo 4 &kp C_MUTE
  
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         lower {
@@ -120,7 +119,7 @@
 &trans   &trans          &trans                   &kp DEL    &trans                &trans     &trans &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         upper {
@@ -130,7 +129,7 @@
 &trans    &trans  &trans    &trans      &trans       &trans     &trans    &trans    &trans  &trans  &trans
 &trans    &trans            &trans                   &trans     &trans              &trans &kp C_MUTE
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         fn-bootloader {
@@ -140,7 +139,7 @@
 &trans   &trans   &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans   &trans
 &trans   &trans           &trans               &trans  &trans          &trans  &trans &kp C_MUTE
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
