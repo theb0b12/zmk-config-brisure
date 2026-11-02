@@ -137,7 +137,7 @@
             bindings = <
 &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp STAR  &trans  &trans
 &trans  &trans  &trans  &trans &trans     &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE  &trans         
-&trans   &trans  &trans  &trans        &kp UNDER  &kp PLUS   &kp PIPE   &kp TILDE  &trans     &trans  &trans
+&trans   &trans  &trans  &trans &trans        &kp UNDER  &kp PLUS   &kp PIPE   &kp TILDE       &trans  &trans
 &trans   &trans          &trans                   &kp DEL    &trans                &trans     &trans &kp C_MUTE
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
