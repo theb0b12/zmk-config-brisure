@@ -60,7 +60,7 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
-            layers = <0, 1>;
+            layers = <0 1>;
         };
 
         quotes {
@@ -96,7 +96,7 @@
         gui {
             bindings = <&kp LGUI>;
             key-positions = <31 32>;
-            layers = <0, 1>;
+            layers = <0 1>;
         };
 
     };
@@ -122,7 +122,6 @@
 &kp A      &kp S     &kp D  &kp F      &kp G  &kp H   &kp J      &kp K  &kp L      &kp SEMI         
 &kp Z      &kp X     &kp C  &kp V      &kp B  &to 0  &kp N      &kp M  &kp COMMA  &kp DOT   &kp FSLH
 &kp LCTRL  &kp LALT         &kp SPACE         &mo 2   &kp BSPC         &kp DEL      &mo 4 &kp C_MUTE
- 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
